@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "strict": true,
+    "lib": ["ES2015"] // Promiseが含まれるES2015ライブラリがTypeScriptに含まれる
+  }
+}

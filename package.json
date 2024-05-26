@@ -1,0 +1,20 @@
+{
+  "name": "fireblocks-demo",
+  "version": "1.0.0",
+  "main": "main.ts",
+  "author": "ikmzkro",
+  "license": "MIT",
+  "scripts": {
+    "compile": "tsc balance.ts",
+    "start": "node balance.js"
+  },
+  "dependencies": {
+    "fireblocks-sdk": "^5.23.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30"
+  }
+}
